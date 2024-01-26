@@ -1,5 +1,5 @@
 Package: bnbc
-Version: 1.24.1
+Version: 1.24.2
 Title: Bandwise normalization and batch correction of Hi-C data
 Description: Tools to normalize (several) Hi-C data from replicates.
 Authors@R: c(
@@ -15,7 +15,8 @@ Suggests:
 	BiocStyle,
 	knitr,
 	rmarkdown,
-        RUnit
+        RUnit,
+        BSgenome.Hsapiens.UCSC.hg19
 Imports:
 	Rcpp (>= 0.12.12),
 	IRanges,

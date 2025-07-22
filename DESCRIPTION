@@ -1,5 +1,5 @@
 Package: bnbc
-Version: 1.31.0
+Version: 1.31.1
 Title: Bandwise normalization and batch correction of Hi-C data
 Description: Tools to normalize (several) Hi-C data from replicates.
 Authors@R: c(
@@ -22,7 +22,7 @@ Imports:
 	IRanges,
 	rhdf5,
 	data.table,
-	GenomeInfoDb,
+	Seqinfo,
 	S4Vectors,
 	matrixStats,
 	preprocessCore,

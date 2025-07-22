@@ -6,7 +6,7 @@ import(SummarizedExperiment)
 import(GenomicRanges)
 import(IRanges)
 import(S4Vectors)
-importMethodsFrom(GenomeInfoDb, genome, seqlengths, seqlevels)
+importMethodsFrom(Seqinfo, genome, seqlengths, seqlevels)
 importFrom(utils, txtProgressBar, setTxtProgressBar, write.table)
 
 importFrom(BiocGenerics, rownames, cbind)

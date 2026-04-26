@@ -2,6 +2,15 @@
 \title{bnbc News}
 \encoding{UTF-8}
 
+\section{Version 1.33}{
+  \itemize{
+    \item Replaced HiCBricks with direct rhdf5 calls in
+    \code{getChrCGFromCools} to fix a segfault in HDF5 cleanup that
+    was crashing the vignette build. HiCBricks is no longer a
+    dependency.
+  }
+}
+
 \section{Version 1.25}{
   \itemize{
     \item Fixed an issue with build error because of missing Suggests
